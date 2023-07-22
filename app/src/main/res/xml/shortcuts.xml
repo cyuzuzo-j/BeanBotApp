@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <capability
+        android:name="custom.actions.intent.ORDER"
+        app:queryPatterns="@array/Order_Queries">
+        <intent>
+        <url-template
+            android:value="https://app.assistant.test/open{?apptTypeUrlKey,item_name,number_of_items}" />
+        <parameter
+            android:name="NumbaOfgrams"
+            android:key="number_of_items"
+            android:mimeType="https://schema.org/Number" />
+        <parameter
+            android:name="Silo"
+            android:key="item_name"
+            android:mimeType="https://schema.org/Number"/>
+            <parameter android:name="apptType" android:key="apptTypeUrlKey" />
+
+        </intent>
+</capability>
+        <shortcut
+        android:shortcutId="SILO"
+        android:shortcutShortLabel="@string/app_name">
+        <capability-binding android:key="custom.actions.intent.ORDER">
+            <parameter-binding
+                android:key="apptType"
+                android:value="@array/orderops" />
+        </capability-binding>
+        </shortcut>
+
+</shortcuts>

@@ -1,0 +1,59 @@
+<!--
+  ~   Copyright 2020 The Android Open Source Project
+  ~
+  ~   Licensed under the Apache License, Version 2.0 (the "License");
+  ~   you may not use this file except in compliance with the License.
+  ~   You may obtain a copy of the License at
+  ~
+  ~        http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~   Unless required by applicable law or agreed to in writing, software
+  ~   distributed under the License is distributed on an "AS IS" BASIS,
+  ~   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~   See the License for the specific language governing permissions and
+  ~   limitations under the License.
+  ~
+  -->
+<resources>
+    <string name="app_name">Bean Bot</string>
+    <string name="app_tagline">groep 211</string>
+    <string name="manual_mode">manual mode</string>
+    <string name="previous">PREVIOUS</string>
+    <string name="done">DONE</string>
+    <string name="Start">Start</string>
+
+
+    <string name="hoeveelheid">Geef in hoeveel gram u van elk wilt</string>
+    <string name="Ipadress">Ipadress</string>getIp
+    <string name="getIp">Ip adres van u beanbot</string>
+    <string name="nrmlIP">192.168.4.1</string>
+    <string name="Ipnotset">Reset Ip</string>
+    <string name="ssid">B16-ESP32-AP</string>
+    <string name="pswd">B16passcon789</string>
+    <!-- survey-->
+    <string name="beanbot">Bean bot </string>
+    <string name="boon1">zwarte bonen</string>
+    <string name="boon2">witte bonen</string>
+    <string name="boon3">bruine bonen</string>
+    <string name="teamnaam">team 211</string>
+    <string-array name="orderops">
+        <item>order</item>
+        <item>take</item>
+        <item>takeout</item>
+        <item>get</item>
+
+
+    </string-array>
+
+    <string-array name="Order_Queries">
+        <item>$apptType $NumbaOfgrams gram from silo $Silo </item>
+        <item>$apptType $NumbaOfgrams from silo $Silo </item>
+        <item>$apptType $NumbaOfgrams from silo $Silo </item>
+        <item>$apptType $NumbaOfgrams from silo $Silo </item>
+        <item>$apptType $NumbaOfgrams out of silo $Silo </item>
+        <item>$apptType $NumbaOfgrams out of silo $Silo </item>
+        <item>$apptType silo $Silo out of $NumbaOfgrams</item>
+    </string-array>
+
+
+</resources>
